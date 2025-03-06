@@ -1,0 +1,85 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.buttons button {
+    background-color: #f8b400;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #d98d00;
+}
+
+.section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #f8b400;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #d98d00;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
